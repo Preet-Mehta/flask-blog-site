@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="content-section">
+        <h1>Oops...Internal Server Error (500)</h1>
+        <p>There seems to be an issue from our end. Please try again after some time.</p>
+        <a href="{{ url_for("main.home") }}">Take me to Home</a>
+        <p>Sorry for inconvenience caused.</p>
+    </div>
+{% endblock %}
